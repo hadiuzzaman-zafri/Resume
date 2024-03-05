@@ -1,0 +1,156 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+#brand{
+    min-width:max-content;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.nav-bar #brand:hover{
+    color: wheat;
+}
+.nav-bar{
+    display: flex;
+    font-size: smaller;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: max-content;
+    overflow-y: hidden;
+    overflow-x: auto;
+    
+    position: relative;
+    z-index: 100;
+    padding: 10px 0 40px;
+}
+
+.scrolbar1 {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.scrolbar1::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrolbar1 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.nav-bar a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightgray;
+    text-decoration:none;
+    padding: 12px;
+}
+.nav-bar a:hover{
+    color: white;
+}
+
+/*--------------End of Nav Bar----------------*/
+.intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    
+}
+.intro img{
+    border-radius: 50%;
+}
+.intro-name{
+    min-width: max-content;
+}
+.intro-description{
+    margin: -10px 50px;
+    line-height: 1.4em;
+    font-size: larger;
+    text-align: center;
+}
+.intro-paragraph{
+    margin: 24px auto 0;
+    max-width: 550px;
+    text-align: center;
+    color: gainsboro;
+}
+.social-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black ;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;    
+}
+.social-head{
+    color:whitesmoke;
+    font-size: xx-large;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black ;
+    margin-top: 40px;
+    width: 100%;    
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    gap:10px;
+    background-color: black ;
+    margin: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;    
+}
+
+.my-work{
+    background-color: black;
+    
+    height: auto;
+    color: gainsboro;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items:first baseline;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    
+}
+.work{
+    text-align: center;
+    height: 145px;
+    width: 345px;  
+}
+.work > a{
+    text-decoration: none;
+    color: gainsboro;
+}
+.work > a:hover{
+    color:wheat;
+}
+
+
